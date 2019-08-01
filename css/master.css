@@ -1,0 +1,256 @@
+header img {
+  width: 50px;
+}
+
+.banner {
+  background: #2E6A6B url(../images/banner.jpg);
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+  min-height: 50vh;
+
+}
+
+
+.banner .row {
+  min-height: 50vh;
+}
+.banner strong{
+  color:#FF9023;
+}
+.banner h1{
+color:#fff;
+font-size: 80px;
+}
+.banner p{
+color:#fff;
+}
+.banner i{
+    color:#FF9023;
+    font-size:50px;
+  }
+.btn{
+  text-transform: uppercase;
+  font-weight: 500 !important;
+  border: 1px solid !important;
+border-radius: 50px !important; 
+padding:10px 20px !important;
+position: relative !important;
+
+}
+.btn::before{
+content: "";
+position:absolute;
+top:-3px;
+left:0;
+width: 100%;
+height: 100%;
+border:1px solid;
+border-radius: 30px;
+}
+.banner a{
+  margin:0 20px;
+  color: #fff;
+}
+.banner a:hover{
+  background-color: #FF9023;
+  color: #fff;
+}
+
+.nav-item .active {
+  color: #FF9023 !important;
+}
+
+.nav-link {
+  color: black;
+}
+
+.nav-link:hover {
+  color:#FF9023;
+}
+
+.last {
+  background-color: #FF9023;
+  color: white;
+  border: 1px solid;
+border-radius: 50px !important;
+padding:10px 20px;
+}
+
+.last:hover {
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  background-color: white;
+  color: #D78F2B;
+}
+
+.bbq .boh{
+  width: 150px;
+}
+.bbq h3{
+color:#FF9023;
+}
+.bbq strong{
+
+}
+.bbq p{
+
+}
+.bbq .images2{
+  box-shadow: 0 0 -50px -50px  red;
+  -moz-box-shadow:  0 0 -50px -50px red;
+  -webkit-box-shadow:  0 0 -50px -50px  red;
+}
+.bbq .image2 img {
+  width: 340px;
+}
+.bbq i{
+  color:#FF9023;
+  font-size:50px;
+}
+.icon .images{
+ float: left;
+ margin: 0 45px;
+}
+.icon img{
+width: 130px;
+
+}
+.community {
+  background: #000000ad url(../images/drink.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 40vh;
+  background-position: center;
+  background-blend-mode:darken; 
+}
+
+.community .row {
+  min-height: 40vh;
+}
+
+.community h2{
+  color:#fff
+}
+
+.community h1{
+  color: #FF9023;
+}
+
+.community p{
+  color:#fff
+}
+.community i{
+  color:#FF9023;
+  font-size: 60px;
+}
+.features {
+  background: #000000ad url(../images/call-me-hangry.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 30vh;
+  background-position: center;
+  background-blend-mode: darken;
+}
+.features h2{
+  color:#FF9023;
+}
+.features span{
+  color:#fff;
+  
+}
+.features p{
+  color:#fff;
+}
+.features .row {
+  min-height: 30vh;
+}
+.features i{
+  color:#FF9023;
+  font-size: 50px;
+}
+.plate{
+  margin-top: 50px;
+}
+.plate .col-xl-8{
+  margin-bottom: 50px;
+}
+.plate .col-xl-4{
+  margin-bottom: 50px;
+}
+.plate img{
+  width: 120px;
+  border-radius: 50%;
+}
+
+.plate strong{
+  font-size: 20px;
+}
+.plate span{
+  color: #FF9023;
+}
+
+
+.food h1 i {
+  color: rgb(255, 0, 0);
+}
+
+.people img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+footer {
+  background: #000000ad url(../images/footer.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 50vh;
+  background-blend-mode: darken;
+  background-position: center;
+}
+
+footer .row { 
+  min-height: 50vh;
+}
+footer h1{
+  color: rgb(255, 255, 255);
+  font-size: 80px;
+} 
+
+footer p{
+  color: #fff;
+}
+footer i{
+  color:#FF9023;
+  font-size:50px;
+}
+footer .social i{
+  color: #fff;
+  border: 1px dotted;
+  font-size: 16px;
+  border-radius: 50%;
+  padding: 6px 6px;
+}
+.ciao{
+  display: inline-block;
+}
+.ciao i{
+  font-size: 15px !important ;
+  padding: 6px 6px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
